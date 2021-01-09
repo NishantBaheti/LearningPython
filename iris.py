@@ -50,3 +50,4 @@ plt.scatter(y1,z1,label="verginica",marker="*")
 
 plt.legend()
 plt.show()
+
