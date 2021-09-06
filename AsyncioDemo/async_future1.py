@@ -2,8 +2,7 @@ import asyncio
 
 
 async def main():
-    print('hello')
     await asyncio.sleep(1)
-    print('world')
 
-asyncio.run(main())
+if __name__ == '__main__':
+    asyncio.run(main())
