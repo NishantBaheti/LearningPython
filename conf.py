@@ -17,9 +17,11 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'LearningPython'
-copyright = '2021, Nishant Baheti'
+project = "The amateur's guide to explore machine learning"
+copyright = 'No copyright, Nishant Baheti'
 author = 'Nishant Baheti'
+
+html_show_copyright = False
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
@@ -34,15 +36,17 @@ extensions = [
     'nbsphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
-    'sphinx.ext.viewcode', 
+    'sphinx.ext.viewcode',
+    'sphinx.ext.todo','sphinx.ext.ifconfig'
 ]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '**.ipynb_checkpoints']
+exclude_patterns = ['_build', '**.ipynb_checkpoints','docs']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -51,14 +55,18 @@ exclude_patterns = ['_build', '**.ipynb_checkpoints']
 # a list of builtin themes.
 #
 ## read the docs 
-# html_theme = 'sphinx_rtd_theme'
-
 # html_theme = "groundwork"
 
-html_theme = "sphinx_rtd_theme"
-
+# html_theme = "sphinx_rtd_theme"
+# html_theme = "sizzle"
+html_theme = "sphinx_book_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+ 
+
+html_theme_options = {
+    "page_width": "100%"
+}
