@@ -1,1 +1,11 @@
+.vscode 
 .ipynb_checkpoints
+__pycache__
+_build
+dataset
+datasets
+data
+
+.virtual_documents
+.venv
+*venv*
