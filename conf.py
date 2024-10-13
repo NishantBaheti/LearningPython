@@ -17,14 +17,17 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = "The amateur's guide to explore machine learning"
-copyright = 'No copyright, Nishant Baheti'
+project = "Python Guide Book"
 author = 'Nishant Baheti'
 
+# copyright = 'No copyright, Nishant Baheti'
+
 html_show_copyright = False
+html_title = 'Python Guide Book'
+
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+# release = '1.0.0'
 
 
 # -- General configuration ---------------------------------------------------

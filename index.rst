@@ -10,16 +10,16 @@ Welcome to LearningPython's documentation!
    :maxdepth: 4
    :caption: Contents:
    
-   Demo_generators
-   Demo_itertools
-   Demo_comprehensions
-   Demo_list
-   Demo_decorators
-   Demo_map_filter
-   Demo_for_else
-   Demo_oops_and_advanced
-   Demo_function_caching
-   Demo_string
+   fundamentals/Demo_generators
+   fundamentals/Demo_itertools
+   fundamentals/Demo_comprehensions
+   fundamentals/Demo_list
+   fundamentals/Demo_decorators
+   fundamentals/Demo_map_filter
+   fundamentals/Demo_for_else
+   fundamentals/Demo_oops_and_advanced
+   fundamentals/Demo_function_caching
+   fundamentals/Demo_string
 
 
 Indices and tables
