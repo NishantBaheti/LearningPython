@@ -20,3 +20,4 @@
     :caption: Data Structures & Algorithms
 
     dsa/sorting
+    dsa/searching
