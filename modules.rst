@@ -21,3 +21,15 @@
 
     dsa/sorting
     dsa/searching
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Additional Docs
+
+    ML Guide Book <https://mlguidebook.com>
+    Reco Guide Book <https://reco.mlguidebook.com>
+    Deep Learning Guide Book <https://dl.mlguidebook.com>
+    NLP Guide Book <https://nlp.mlguidebook.com>
+    mightypy <https://mightypy.readthedocs.io/>
+    graphpkg <https://graphpkg.readthedocs.io/>
