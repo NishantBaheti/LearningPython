@@ -9,3 +9,7 @@ data
 .virtual_documents
 .venv
 *venv*
+
+build
+*.so
+*.c

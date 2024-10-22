@@ -22,6 +22,12 @@
     dsa/sorting
     dsa/searching
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Cython
+
+    CythonDemo/cython_basics
+
 
 .. toctree::
     :maxdepth: 1

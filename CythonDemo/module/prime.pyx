@@ -1,4 +1,4 @@
-def print_prime_number(int last):
+def print_prime_number_cython(int last):
     
     cdef int digit,is_prime,cursor
     
@@ -16,7 +16,7 @@ def print_prime_number(int last):
             cursor += 1
 
             
-        if is_prime:
-            print(digit)
+        # if is_prime:
+        #     print(digit)
 
         digit += 1
