@@ -21,6 +21,7 @@
 
     dsa/sorting
     dsa/searching
+    dsa/dynamic_programming
 
 .. toctree::
     :maxdepth: 1
