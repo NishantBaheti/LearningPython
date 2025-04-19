@@ -42,7 +42,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
-    'myst_nb'
+    # 'myst_nb'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -72,7 +72,7 @@ html_theme = "sphinx_book_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-nb_execution_mode = "cache"
+# nb_execution_mode = "cache"
  
 
 html_theme_options = {
